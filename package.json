@@ -1,0 +1,21 @@
+{
+  "name": "scs-unit4-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "hardhat build",
+    "test": "hardhat test",
+    "test:solidity": "hardhat test solidity",
+    "test:nodejs": "hardhat test nodejs",
+    "slither": "slither . --filter-paths \"node_modules|test\""
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.7",
+    "hardhat": "^3.0.0",
+    "typescript": "~5.8.0",
+    "viem": "^2.38.0"
+  }
+}
